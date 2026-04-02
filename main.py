@@ -36,6 +36,10 @@ app.add_middleware(
 def home():
     return {"message": "CyberHygine Backend Running 🚀"}
 
+@app.head("/")
+def head_home():
+    return {}
+
 JWT_SECRET = os.getenv("JWT_SECRET")
 if not JWT_SECRET:
     JWT_SECRET = os.urandom(32).hex()
