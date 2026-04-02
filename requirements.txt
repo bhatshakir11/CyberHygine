@@ -18,8 +18,6 @@ email-validator==2.3.0
 fastapi==0.110.0
 fonttools==4.60.0
 greenlet==3.2.4
-grpcio==1.71.0
-grpcio-status==1.71.0
 gunicorn==25.3.0
 h11==0.16.0
 httpcore==1.0.9
