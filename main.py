@@ -43,7 +43,7 @@ WEBAUTHN_RP_NAME = os.getenv("WEBAUTHN_RP_NAME", "Cyber Hygiene Vault")
 WEBAUTHN_ORIGIN = os.getenv("WEBAUTHN_ORIGIN", "http://localhost:3000")
 WEBAUTHN_CHALLENGE_TTL_SECONDS = 300
 webauthn_challenges = {}
-DB_PATH = os.path.join(os.path.dirname(__file__), "users.db")
+DB_PATH = "/tmp/users.db"
 
 SECOND_LEVEL_SUFFIXES = {
     "co.uk",
